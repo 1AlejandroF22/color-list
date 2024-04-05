@@ -4,9 +4,9 @@ import ColorList from "./components/ColorList";
 
 import "./index.css";
 
-const App = () => (
-	<>
+const App = ( ) => {
+  <>
 		<ColorList />
-  </>
-);
+	</>
+};
 ReactDOM.createRoot(document.getElementById("app")).render(<App/>);
